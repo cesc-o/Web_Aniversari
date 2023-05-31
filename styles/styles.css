@@ -1,0 +1,98 @@
+body {
+  font-family: 'Happy Monkey', cursive;
+  background:#EFB0C9;
+  color: white;
+  text-align: center;
+  
+}
+
+h1, h2, h3, h4, p {
+  text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid #a2d2ff;
+  margin-bottom: 10px;
+}
+
+#bday-age {
+  background: #a2d2ff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 15px 0 10px 0;
+  
+}
+
+#bday-date {
+  background: #a2d2ff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gift-section {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  
+}
+
+.gift-title {
+  margin-bottom: 10px;
+}
+
+.gift-hint {
+  margin-top: 0;
+}
+
+.gift-img {
+  /* margin: 0 auto; */
+  border: 6px solid white;
+  border-radius: 10px;
+  background-image: url("/images/regal.jpg");
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+
+}
+
+#gift-img4 {
+  height: 200px;
+}
+
+#gift-img1:hover {
+  background-image: url("/images/minions contents.gif");
+}
+
+#gift-img2:hover {
+  background-image: url("/images/mirada.gif");
+}
+
+#gift-img3:hover {
+  background-image: url("/images/felicitats.gif");
+}
+
+#gift-img4:hover {
+  background-image: url("/images/leonardo.webp");
+}
+
+footer {
+  margin-top: 100px;
+  text-decoration: none;
+
+}
+
+a:link {
+  text-decoration: none;
+  color: #A3003C;
+}
